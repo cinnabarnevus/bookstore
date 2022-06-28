@@ -1,0 +1,41 @@
+span{
+    color: red;/*设置提示信息的样式*/
+    font-size: 12px;
+}
+body{
+    background:url("../img/IMG_3127.jpg") no-repeat;/*给页面添加背景图片*//*background-image不能使用no-repeat属性,要设置图片不重复,需采用background*/
+    background-position:center;
+    background-size: cover;
+}
+#container{
+    margin:200px 300px 100px 320px;/*从左至右依次为上、右、下、左*/
+    background: url("../img/white.jpg") no-repeat;
+    background-size:cover;
+    float: left;
+    padding:30px 30px 30px 30px;
+}
+#left{
+    line-height:1.5;
+    float: left;
+    margin-left: 30px;
+}
+#up{
+    color:darkorange;
+}
+#down{
+    color:cadetblue;
+}
+#center{
+    line-height:2.5;/*设置行间距*/
+    margin-left: 50px;
+    float: left;
+    font-size: small;
+}
+#right{
+    float: left;
+    font-size:smaller;
+}
+.border{
+    border-radius:7px;/*设置所有文本框为圆角*/
+    border-style: solid; /*设置边框类型*/
+}
